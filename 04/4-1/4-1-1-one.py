@@ -14,4 +14,4 @@ if resp.status_code == 200:
     res = sel.css('.list-group-item::text').extract()
     print(res)
 else:
-    print('This request is fial.')
+    print('This request is fail.')
